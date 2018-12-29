@@ -1,8 +1,8 @@
 #include "Arduino.h"
 #include "ZifSocket.h"
 
-
-ZifSocket::ZifSocket(uint8_t p1,uint8_t p2,uint8_t p3,uint8_t p4,uint8_t p5,uint8_t p6,uint8_t p7,uint8_t p8,uint8_t p9,uint8_t p10,uint8_t p11,uint8_t p12,uint8_t p13,uint8_t p14,uint8_t p15,uint8_t p16,uint8_t p17,uint8_t p18,uint8_t p19,uint8_t p20)
+ZifSocket::ZifSocket(){;}
+void ZifSocket::init(uint8_t p1,uint8_t p2,uint8_t p3,uint8_t p4,uint8_t p5,uint8_t p6,uint8_t p7,uint8_t p8,uint8_t p9,uint8_t p10,uint8_t p11,uint8_t p12,uint8_t p13,uint8_t p14,uint8_t p15,uint8_t p16,uint8_t p17,uint8_t p18,uint8_t p19,uint8_t p20)
 {
   setPinNumber(1,p1);   setPinNumber(2,p2);     setPinNumber(3,p3);     setPinNumber(4,p4);
   setPinNumber(5,p5);   setPinNumber(6,p6);     setPinNumber(7,p7);     setPinNumber(8,p8);
