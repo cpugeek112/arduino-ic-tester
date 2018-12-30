@@ -2,10 +2,7 @@
 #include "SDReader.h"
 
 
-SDReader::SDReader()
-{
-  int initalized = true;  
-}
+SDReader::SDReader(){;}
 
 void SDReader::SD_init(){
   pinMode(CHIPSELECT,OUTPUT);
